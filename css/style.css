@@ -8,6 +8,7 @@ body{
 
 .head{
 	background: #4C4C4C;
+	background: #222;
 	height: 60px;
 	padding-right: 80px;
 }
@@ -15,7 +16,7 @@ body{
 	height: 60px;
 	line-height: 60px;
 	padding-left: 40px;
-	color: #fff;
+	color: #9d9d9d;
 	font-size: 30px;
 	font-weight: normal;
 	display: inline-block;
@@ -36,34 +37,36 @@ body{
 	margin: 0 auto;
 	margin-top: 20px;
 	background: #fff;
-	box-shadow: 0 0 15px #ccc inset;
-	/*height: 500px;*/
-
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+	background-color: #f8f8fd;
 }
 
 .container .box{
 	border-radius: 5px;
 	float: left;
-	padding: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
 }
 .container .box:hover{
-	transform: scale(1.05);
+	transform: scale(1.0);
+	transition: 0.5s ease;
 }
 .container .box:hover .content{
-	box-shadow: 0 0 15px #ccc;
+	box-shadow: 0 2px 30px -1px rgba(0, 0, 0, 0.6), inset 0 0 87px 0 rgba(184, 184, 184, 0.13);
+	transition: 0.5s ease;
 }
 .container .box .content{
 	width: 256px;
-	border: 2px solid #ccc;
-	box-shadow: 0 0 5px #ccc ins;
 	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .container .content a{
 	text-decoration: none;
 }
 .container .content a h3{
-	color: #F38094;
+	color: #4d6dad;
 }
 .container .content a img{
 	width: 256px; 
@@ -71,11 +74,11 @@ body{
 }
 .container .content .description{
 	margin-top: 5px;
-	font-size: 15px;
+	font-size: 14px;
 	font-family: '微软雅黑';
 }
 .container .content .description a{
-	color: #F393BF;
+	color: #4d6dad;
 }
 .container .content p{
 	text-indent: 2em;

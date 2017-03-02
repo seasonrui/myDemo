@@ -1,9 +1,7 @@
 $(window).on('load',function(){
-
 	waterfall();
 
 });
-
 function waterfall(){
 	var $boxs= $('.box');
 	var w = $boxs.eq(0).outerWidth();//获取的宽是包括padding和border
