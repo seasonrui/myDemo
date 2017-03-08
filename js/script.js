@@ -25,4 +25,6 @@ function waterfall(){
 	})
 	var hMax = Math.max.apply(null,hArr);//算出整个container的高度，因为box元素有float和absolute,父元素高度没法设置
 	$('.container').css('height',hMax);
+
 }
+
